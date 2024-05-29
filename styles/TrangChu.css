@@ -1,0 +1,292 @@
+
+@charset "utf-8";
+#full-web 
+{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+#full-web .banner img
+{
+    width: 1280px;
+    height: 1000px;
+    margin: 0 auto;
+}
+#full-web .logo img
+{
+    width: 160px;
+    height: 110px   ;
+}
+#full-web .top
+{
+    display: flex;
+    padding: 10px;
+}
+#full-web .navigation   
+{
+    width: 100%;
+    margin: 0 auto;
+}
+#navbarSupportedContent
+{
+  margin-left: 450px;
+}
+
+#full-web .nav-item
+{
+  margin-left: 100px;
+}
+
+
+.Box-Den
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1280px;
+    column-gap: 40px;
+}
+
+.Box-Den .box-1 .prroIMG img,
+.Box-Den .box-2 .prroIMG img,
+.Box-Den .box-3 .prroIMG img
+{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.box-1,.box-2,.box-3
+{
+    border-radius: 20px;
+    background-color:rgba(192, 192, 174, 0.871);
+    width: 400px;
+    height: 400px;
+}
+
+.Intro-text-area
+{
+    padding-top: 50px;
+    display: flex;
+}
+.Intro-text-area .gioithieu
+{
+    width: 440px;
+}
+.Intro-text-area .gioithieu h3
+{
+    color: rgb(105, 151, 105);
+}
+.Intro-text-area .minhhoa
+{
+    width: 840px;
+    margin-left: 50px;
+}
+.button{
+    border: none;
+    /* color: white; */
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    border: 2px solid #04AA6D;
+    border-radius: 5px;
+  }
+
+  .button1 a{
+    text-decoration: none;
+  }
+
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: #fff !important;
+  }
+ 
+ 
+  /* CSS for JiaHomie Website */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header.top {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  header .navbar {
+    margin: 0;
+  }
+  
+  header .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  
+  header .navbar-nav .nav-item .nav-link.active {
+    color: #007bff;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Intro-text-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+  }
+  
+  .Intro-text-area .gioithieu {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .Intro-text-area .gioithieu h3 {
+    font-size: 28px;
+    color: #007bff;
+  }
+  
+  .Intro-text-area .gioithieu p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .Intro-text-area .gioithieu .btn {
+    font-size: 18px;
+  }
+  
+  .Intro-text-area .minhhoa img {
+    width: 100%;
+    max-width: 840px;
+    height: auto;
+  }
+  
+  .Name-SP {
+    text-align: center;
+    background-color: #83a2c3;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  .Name-SP h3 {
+    margin: 0;
+  }
+  
+  .Box-Den {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .Box-Den .box {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .Box-Den .box-1:hover,
+  .Box-Den .box-2:hover,
+  .Box-Den .box-3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Box-Den .prroIMG img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Box-Den .prroIMG img:hover
+  {
+    transform: scale(1.1); /* Tăng kích thước của hình ảnh khi hover */
+    transition: transform 0.3s ease; /* Áp dụng transition để tạo hiệu ứng mượt mà */
+  }
+
+  .Box-Den .Pro-Info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .Box-Den .Pro-Info h5 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .Box-Den .Pro-Info a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .Box-Den .Pro-Info a:hover {
+    color: #e26262;
+  }
+  
+  .Box-Den .productPrice {
+    font-size: 18px;
+    color: #2966a3;
+  }
+  
+  footer.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer.footer span {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .Intro-text-area {
+      flex-direction: column;
+    }
+  
+    .Intro-text-area .gioithieu {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .Box-Den .box {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Background-LH {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 90%;
+    max-width: 1280px;
+    height: 650px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/lienHe.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.Text-LH h1, .Text-LH h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.HinhThuc-LH {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.HT-1 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.HT-1 p {
+    font-size: 18px;
+}
+
+.Info-KH {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.Info-KH label {
+    color: rgb(13, 1, 1);
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) {
+    .HinhThuc-LH {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .HT-1, .Info-KH {
+        width: 48%;
+    }
+}
+
+@media (max-width: 767px) {
+    #Background-LH {
+        padding: 10px;
+    }
+
+    .Text-LH h1 {
+        font-size: 24px;
+    }
+
+    .Text-LH h3 {
+        font-size: 18px;
+    }
+
+    .Info-KH {
+        padding: 15px;
+    }
+
+    .form-group input {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Text-LH h1 {
+        font-size: 20px;
+    }
+
+    .Text-LH h3 {
+        font-size: 16px;
+    }
+}
