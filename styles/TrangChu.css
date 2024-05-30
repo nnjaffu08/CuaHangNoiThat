@@ -13,14 +13,6 @@
   border-radius: 5px;
 }
 
-.nav-item:hover
-{
-    /* color: #fff !important;  */
-    transform: scale(1.5); 
-    transition: transform 0.3s ease;
-    font-size: xx-large;
-}
-
 #full-web .banner img
 {
     width: 1280px;
