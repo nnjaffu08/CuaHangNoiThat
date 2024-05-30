@@ -6,6 +6,21 @@
     height: auto;
     margin: 0 auto;
 }
+
+.nav-item
+{
+  background-color:#e4eab4;
+  border-radius: 5px;
+}
+
+.nav-item:hover
+{
+    /* color: #fff !important;  */
+    transform: scale(1.5); 
+    transition: transform 0.3s ease;
+    font-size: xx-large;
+}
+
 #full-web .banner img
 {
     width: 1280px;
@@ -37,15 +52,6 @@
   margin-left: 100px;
 }
 
-
-.Box-Den
-{
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 1280px;
-    column-gap: 40px;
-}
 
 .Box-Den .box-1 .prroIMG img,
 .Box-Den .box-2 .prroIMG img,
@@ -86,7 +92,6 @@
 }
 .button{
     border: none;
-    /* color: white; */
     padding: 6px 32px;
     text-align: center;
     text-decoration: none;
@@ -112,8 +117,7 @@
     color: #fff !important;
   }
  
- 
-  /* CSS for JiaHomie Website */
+  
 
 body {
     font-family: 'Arial', sans-serif;
@@ -276,18 +280,113 @@ body {
   }
   
   @media (max-width: 768px) {
-    .Intro-text-area {
+
+    #full-web 
+    {
+      width: 768px;
+      margin: 0 auto;
+    }
+
+    .banner
+    {
+      display: none;
+    }
+    
+    .Intro-text-area{
       flex-direction: column;
     }
-  
-    .Intro-text-area .gioithieu {
-      padding-right: 0;
-      margin-bottom: 20px;
-    }
-  
-    .Box-Den .box {
+    .Intro-text-area .minhhoa{
       width: 100%;
     }
+
+    .Intro-text-area .minhhoa
+    {
+
+        margin-left: 0px;
+    }
+
+    .Intro-text-area .minhhoa img{
+      width: 100%;
+    }
+    .Intro-text-area .gioithieu {
+      width: 100%;
+      font-size: xx-large;
+      text-align: justify;
+    }
+    .Box-Den
+    {
+      justify-content: center;
+    }
+    .Name-SP
+    {
+      width: 100%;
+    }
+    .footer
+    {
+      text-align: center;
+    }
+    .Box-Den .box-1 .prroIMG img,
+    .Box-Den .box-2 .prroIMG img,
+    .Box-Den .box-3 .prroIMG img
+    {
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .Box-Den .Pro-Info h5 {
+      font-size: 37px;
+
+   }
+
+    .box-1,.box-2,.box-3
+    {
+        border-radius: 20px;
+        background-color:rgba(192, 192, 174, 0.871);
+        width: 600px;
+        height: 650px;
+    }
+    .Box-Den .productPrice {
+      font-size: 35px;
+      color: #2966a3;
+    }
+    .Intro-text-area .gioithieu h3 {
+      font-size: 45px;
+      color: #007bff;
+    }
+    .Intro-text-area .gioithieu p {
+      font-size: 35px;
+      margin-bottom: 20px;
+     }
+     .Name-SP h3 {
+      margin: 0;
+      font-size: 30px;
+    }
+    header .navbar-nav .nav-item .nav-link.active {
+      color: #007bff;
+      font-size: 35px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+      font-size: 35px;
+    }
+    .dropdown-item {
+      display: block;
+      width: 100%;
+      padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+      clear: both;
+      font-weight: 400;
+      color: var(--bs-dropdown-link-color);
+      text-align: inherit;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border: 0;
+      border-radius: var(--bs-dropdown-item-border-radius, 0);
+      font-size: 30px;
+    }
+    
   }
   .loader-wrapper {
     width: 100%;

@@ -1,0 +1,154 @@
+#Full-Content
+{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#Full-Content .logo img
+{
+    width: 160px;
+    height: 110px   ;
+}
+#Full-Content .top
+{
+    display: flex;
+    padding: 10px;
+}
+#Full-Content .navigation   
+{
+    width: 100%;
+    margin: 0 auto;
+}
+#navbarSupportedContent
+{
+  margin-left: 450px;
+}
+
+#Full-Content .nav-item
+{
+  margin-left: 100px;
+}
+.nav-item
+{
+  background-color:#e4eab4;
+  border-radius: 5px;
+}
+header.top {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  header .navbar {
+    margin: 0;
+  }
+  
+  header .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  
+  header .navbar-nav .nav-item .nav-link.active {
+    color: #007bff;
+  }
+  
+.nav-item:hover
+{
+    /* color: #fff !important;  */
+    transform: scale(1.5); 
+    transition: transform 0.3s ease;
+}
+.content
+{
+    display: flex;
+}
+.form-product
+{
+    display: flex;
+}
+
+.content
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Thongso-SP
+{
+    width: 33%;
+    margin-left: 70px;
+}
+
+.Hinh-SP 
+{
+    width: 33%;
+}
+.Hinh-SP img
+{
+    width: 100%;
+}
+.TTSP-SP
+{
+    width: 33%;
+}
+.content .form-product{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.content .form-product .buyNow{
+    display: block;
+    padding: 10px 10px;
+    background-color: #ff3300;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.content .form-product .buyNow:hover{
+    transform: translateY(-20px);
+    background-color: rgb(90, 227, 149);
+    cursor: pointer;
+    color: aliceblue;
+}
+.content .price-box{
+    width: 100%;
+}
+
+.content .price-box .price{
+    font-size: 25px;
+    color: #e4a950;
+    font-weight: 700;
+}
+.content .product-desc,
+.content .stock-brand
+{
+    font-size: 25px;
+}
+
+.stock-brand .mota-1
+{
+    color: rgb(3, 247, 52);
+}
+.stock-brand .mota-2
+{
+    color: #e4a950;
+}
+.TTSP-SP .Infoo
+{
+    font-size: 20px;
+}

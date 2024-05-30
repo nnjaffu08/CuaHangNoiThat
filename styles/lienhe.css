@@ -88,7 +88,6 @@ button:hover {
     color: rgb(13, 1, 1);
 }
 
-/* Media Queries for Responsive Design */
 @media (min-width: 768px) {
     .HinhThuc-LH {
         flex-direction: row;
@@ -98,6 +97,10 @@ button:hover {
     
     .HT-1, .Info-KH {
         width: 48%;
+    }
+    .action-button
+    {
+        display: none;
     }
 }
 
@@ -113,9 +116,36 @@ button:hover {
     .Text-LH h3 {
         font-size: 18px;
     }
-
+    .action-button img
+    {
+        width: 80px;
+        height: 80px;
+    }
+    .action-button .LH-call img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .action-button
+    {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: 15px;
+        bottom: 17%;
+    }
+    .Background-LH
+    {
+        padding-bottom: 550px;
+    }
+    .HT-1
+    {
+        display: none;
+    }
+ 
     .Info-KH {
-        padding: 15px;
+        /* padding: 15px; */
+        margin-bottom: 56px;
     }
 
     .form-group input {
@@ -127,12 +157,3 @@ button:hover {
     }
 }
 
-@media (max-width: 480px) {
-    .Text-LH h1 {
-        font-size: 20px;
-    }
-
-    .Text-LH h3 {
-        font-size: 16px;
-    }
-}
