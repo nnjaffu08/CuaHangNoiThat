@@ -69,7 +69,7 @@
     border-radius: 20px;
     background-color:rgba(192, 192, 174, 0.871);
     width: 400px;
-    height: 400px;
+    height: 450px;
 }
 
 .Intro-text-area
@@ -346,7 +346,7 @@ body {
         border-radius: 20px;
         background-color:rgba(192, 192, 174, 0.871);
         width: 600px;
-        height: 650px;
+        height: 700px;
     }
     .Box-Den .productPrice {
       font-size: 35px;
